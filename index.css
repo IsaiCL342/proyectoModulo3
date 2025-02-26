@@ -1,0 +1,27 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Contenedor de los comentarios */
+.comentarios {
+    margin-top: 20px;
+}
+
+/* Estilo para cada comentario */
+.comentario {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Botón para eliminar un comentario */
+.eliminar {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
