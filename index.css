@@ -1,7 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 /* Estilos generales para la página */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    background-color: rgb(98, 41, 148);
+}
+
+.navbar h1{
+    color: rgb(253, 253, 253);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://okdiario.com/img/2022/11/22/libros-4-635x358.jpg);
 }
 
 /* Contenedor de los comentarios */
@@ -11,17 +27,71 @@ body {
 
 /* Estilo para cada comentario */
 .comentario {
-    background: #f4f4f4;
+    background: rgb(239, 215, 250);
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
 }
 
+
 /* Botón para eliminar un comentario */
 .eliminar {
-    background: red;
+    background: rgb(108, 1, 1);
     color: white;
     border: none;
     padding: 5px;
     cursor: pointer;
+}
+
+/*Tarjeta libro*/
+
+h2 {
+    color: aliceblue;
+}
+
+.info {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tarjetaLibro {
+    width: 30%;
+    background-color: rgb(239, 215, 250);
+    border-radius: 3%;
+    /*Centrando elementos*/
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding: 12px;
+    gap: 15px;
+}
+
+.tarjetaLibro .portada-libro img{
+    width: 200px;
+    border-radius: 5%;
+}
+
+.tarjetaLibro p{
+    text-align: start;
+}
+
+.imagenes {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.diseño{
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
 }
